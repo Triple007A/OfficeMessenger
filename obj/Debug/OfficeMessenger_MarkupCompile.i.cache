@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 E:\c#\OfficeMessenger\OfficeMessenger\App.xaml
-2-55191833
+571151234
 
-10-1829746553
+131712311877
 131569487696
-MainWindow.xaml;Views\LoginView.xaml;
+MainWindow.xaml;Views\ChatView.xaml;Views\ContactsView.xaml;Views\LoginView.xaml;Views\RegisterView.xaml;
 
 True
 

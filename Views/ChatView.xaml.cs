@@ -10,32 +10,21 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace OfficeMessenger.Views
 {
     /// <summary>
-    /// Interaction logic for LoginView.xaml
+    /// Interaction logic for ChatView.xaml
     /// </summary>
-    public partial class LoginView : Page
+    public partial class ChatView : Window
     {
-        public LoginView()
+        public ChatView()
         {
             InitializeComponent();
         }
 
-        private void LoginButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void RegisterButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void ForgotPasswordLabel_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        private void SendMessageButton_Click(object sender, RoutedEventArgs e)
         {
 
         }

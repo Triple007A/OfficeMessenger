@@ -16,26 +16,26 @@ using System.Windows.Shapes;
 namespace OfficeMessenger.Views
 {
     /// <summary>
-    /// Interaction logic for LoginView.xaml
+    /// Interaction logic for ContactsView.xaml
     /// </summary>
-    public partial class LoginView : Page
+    public partial class ContactsView : Page
     {
-        public LoginView()
+        public ContactsView()
         {
             InitializeComponent();
         }
 
-        private void LoginButton_Click(object sender, RoutedEventArgs e)
+        private void AddButton_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void RegisterButton_Click(object sender, RoutedEventArgs e)
+        private void GroupChatButton_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void ForgotPasswordLabel_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        private void ProfileButton_Click(object sender, RoutedEventArgs e)
         {
 
         }

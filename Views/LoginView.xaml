@@ -5,10 +5,38 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:OfficeMessenger.Views"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="LoginView">
+      d:DesignHeight="450" d:DesignWidth="450"
+      Title="LoginView"
+      Background="White">
 
-    <Grid>
-        
-    </Grid>
+    <StackPanel Margin="10 100 10 10">
+        <!--Login fields-->
+        <Grid Margin="0 5 0 5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" HorizontalAlignment="Right">Login:</Label>
+            <TextBox x:Name="loginTextBox" Grid.Column="1" HorizontalAlignment="Left" Width="150"/>
+        </Grid>
+
+        <!--Password fields-->
+        <Grid Margin="0 5 0 5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" HorizontalAlignment="Right">Password:</Label>
+            <PasswordBox x:Name="passwordTextBox" Grid.Column="1" HorizontalAlignment="Left" Width="150"/>
+        </Grid>
+
+        <!--Login button-->
+        <Button x:Name="loginButton" Content="Log in" Width="150" Margin="0 5 0 5" Click="LoginButton_Click"/>
+
+        <!--Register button-->
+        <Button x:Name="registerButton" Content="Register" Width="150" Margin="0 5 0 5" Click="RegisterButton_Click"/>
+
+        <!--Forget password label-->
+        <Label x:Name="forgotPasswordLabel" FontWeight="Bold" HorizontalAlignment="Center" MouseDoubleClick="ForgotPasswordLabel_MouseDoubleClick">Forgot password?</Label>
+    </StackPanel>
 </Page>

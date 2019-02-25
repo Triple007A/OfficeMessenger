@@ -16,18 +16,13 @@ using System.Windows.Shapes;
 namespace OfficeMessenger.Views
 {
     /// <summary>
-    /// Interaction logic for LoginView.xaml
+    /// Interaction logic for RegisterView.xaml
     /// </summary>
-    public partial class LoginView : Page
+    public partial class RegisterView : Page
     {
-        public LoginView()
+        public RegisterView()
         {
             InitializeComponent();
-        }
-
-        private void LoginButton_Click(object sender, RoutedEventArgs e)
-        {
-
         }
 
         private void RegisterButton_Click(object sender, RoutedEventArgs e)
@@ -35,7 +30,7 @@ namespace OfficeMessenger.Views
 
         }
 
-        private void ForgotPasswordLabel_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        private void CancelButton_Click(object sender, RoutedEventArgs e)
         {
 
         }
